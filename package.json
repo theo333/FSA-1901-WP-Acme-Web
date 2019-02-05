@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/theo333/FSA-1901-WP-Acme-Web#readme",
   "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9",
     "pg": "^7.8.0"
   }
 }
