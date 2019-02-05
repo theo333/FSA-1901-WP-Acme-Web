@@ -1,0 +1,23 @@
+{
+  "name": "04-Acme-Web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theo333/FSA-1901-WP-Acme-Web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theo333/FSA-1901-WP-Acme-Web/issues"
+  },
+  "homepage": "https://github.com/theo333/FSA-1901-WP-Acme-Web#readme",
+  "dependencies": {
+    "pg": "^7.8.0"
+  }
+}
