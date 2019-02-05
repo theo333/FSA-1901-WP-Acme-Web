@@ -17,6 +17,7 @@ const getContentForPage = (pageId) => {
 
 }
 
+// seeds db
 const sync = () => {
 	return client.query(SEED);
 }
@@ -51,12 +52,13 @@ const SEED = `
 `;
 
 client.connect()
-		// .then(() => console.log('seeded'))
-		// .then( () => getPages())
-		// .then( pages => console.log(pages.rows))
-		// .then( () => getContentForPage(3))
-		// .then( content => console.log(content.rows)) 
-		.catch( ex => console.log(ex));
+	// ** used for dev & troubleshooting
+	// .then(() => console.log('seeded'))
+	// .then( () => getPages())
+	// .then( pages => console.log(pages.rows))
+	// .then( () => getContentForPage(3))
+	// .then( content => console.log(content.rows)) 
+	.catch( ex => console.log(ex));
 
 module.exports = {
 	getPages,

@@ -1,5 +1,4 @@
-const express = require('express');
-
+// server layer
 const db = require('./db');
 const app = require('./app');
 
