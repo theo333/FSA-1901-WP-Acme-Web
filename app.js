@@ -27,7 +27,7 @@ app.use((req, res, next) => {
 
 app.get('/', (req, res, next) => {
 	// grab home page obj
-	const homePage = req.pages.filter( page => page.is_home_page === true)[0];
+	const homePage = req.pages.find( page => page.is_home_page === true);  
 	// redirect to home page
 	res.redirect(`/pages/${homePage.id}`);
 });
