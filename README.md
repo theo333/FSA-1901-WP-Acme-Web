@@ -5,7 +5,7 @@
 - No beginning repo
 - Replicate Prof's site: https://acme-web.herokuapp.com/pages/1
   
-### Technologiies and Concepts Used
+### Technologies and Concepts Used
 - Node.js
 - Express
 - Postgres
